@@ -1,0 +1,25 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datainputactivity"
+    tools:ignore="HardcodedText,ObsoleteLayoutParam,DuplicateIds,TextFields,SpUsage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="912dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textResult"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="PADDY MANAGEMENT RECORD"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+
+
+    </LinearLayout>
+</ScrollView>

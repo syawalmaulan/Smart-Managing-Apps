@@ -1,0 +1,227 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datainputactivity"
+    tools:ignore="HardcodedText,ObsoleteLayoutParam,DuplicateIds,TextFields,SpUsage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="912dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="HARVESTING"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="please fill all the info correctly and put 0 if not related"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+
+
+        <TextView
+            android:id="@+id/textDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area(ha)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textYield"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Harvested Yield(Tonne)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editYield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textLS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nType of combine harvester used"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioMini"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mini combine harvester" />
+
+            <RadioButton
+                android:id="@+id/radioCombine"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Combine harvester" />
+
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Time Taken"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration(h)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textCost"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cost per Tonne"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Combine harvester(RM/tonne)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editWT"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textTC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transportation(RM/tonne)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editTC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Next" />
+
+    </LinearLayout>
+</ScrollView>

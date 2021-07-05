@@ -1,0 +1,171 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datainputactivity"
+    tools:ignore="HardcodedText,ObsoleteLayoutParam,DuplicateIds,TextFields,SpUsage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="912dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textStyle="bold"
+            android:text="User Data Entry"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="please fill all the info correctly and put 0 if not related"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nOwner's name"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+        <requestFocus />
+
+        <TextView
+            android:id="@+id/textLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/textSize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Size(ha)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editSize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textLS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\nLand Status"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioRent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Rent" />
+
+            <RadioButton
+                android:id="@+id/radioOwn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Own Land" />
+
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/LandPreparation"
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Land Preparation" />
+
+        <Button
+            android:id="@+id/Seeding"
+            android:layout_width="406dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Seeding" />
+
+        <Button
+            android:id="@+id/Spraying"
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Spraying" />
+
+        <Button
+            android:id="@+id/Fertilizing"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Fertilizing" />
+
+        <Button
+            android:id="@+id/Harvesting"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Harvesting" />
+
+        <Button
+            android:id="@+id/PostHarvst"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            android:text="Post Harvest" />
+        <Button
+            android:id="@+id/Result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Result" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,261 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".datainputactivity"
+    tools:ignore="HardcodedText,ObsoleteLayoutParam,DuplicateIds,TextFields,SpUsage" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="912dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="SPRAYING"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="please fill all the info correctly and put 0 if not related"
+            android:textSize="10dp"
+            android:textStyle="italic"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+
+        <TextView
+            android:id="@+id/textFW"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Weight/bag(kg)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editFW"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:typeface="monospace" />
+        <TextView
+            android:id="@+id/textBag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No.of Bag used"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editBag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textArea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Area(ha)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editArea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Ratio of N:P:K"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"
+
+        <TextView
+            android:id="@+id/textN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="N"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+        <TextView
+            android:id="@+id/textP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="P"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="K"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editK"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Time Taken"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editStart"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" >
+        </EditText>
+
+        <TextView
+            android:id="@+id/textEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="End"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editEnd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration(h)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editDuration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Cost"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/textSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pesticide(RM/bottle)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editSC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+        <TextView
+            android:id="@+id/textLC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labour(RM/ha)"
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:typeface="monospace"
+            android:textColor="#000000" />
+
+        <EditText
+            android:id="@+id/editLC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:typeface="monospace" />
+
+
+
+        <Button
+            android:id="@+id/Next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Next" />
+
+    </LinearLayout>
+</ScrollView>
